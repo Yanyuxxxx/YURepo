@@ -21,7 +21,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", }
   # s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", :tag => s.version }
   s.source_files  = "YUKit", "YUKit/YUKit/**/*.{h,m}"
-  s.exclude_files = "YUKit/Exclude"
   s.requires_arc = true
+
+  s.frameworks   = "UIKit", "Foundation" 
+  s.dependency     'Masonry', '1.1.0'
 
 end
