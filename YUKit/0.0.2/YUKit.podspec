@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", }
   # s.source       = { :git => "https://github.com/Yanyuxxxx/YUKit.git", :tag => s.version }
-  s.source_files  = "YUKit", "YUKit/**/*.{h,m}"
+  s.source_files  = "YUKit", "YUKit/YUKit/**/*.{h,m}"
   s.exclude_files = "YUKit/Exclude"
   s.requires_arc = true
 
